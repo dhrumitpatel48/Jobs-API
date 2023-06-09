@@ -37,4 +37,8 @@ const start = async () => {
   }
 };
 
-start();
+try {
+  await start();
+} catch (error) {
+  console.log(error);
+}
