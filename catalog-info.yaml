@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Jobs-API
+  annotations:
+    github.com/project-slug: dhrumitpatel48/Jobs-API
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Dhrumit
